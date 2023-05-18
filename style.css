@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: "Cinzel", serif;
+    background: #c13584;
+}
+
+.container{
+    background: #ffdc80;
+    padding: 2rem;
+    border-radius: 100px;
+}
+
+.result span{
+    padding: 1rem;
+    border-radius: 5px;
+    background-color:aqua;
+}
+
+button{
+    padding: 0.5rem;
+    border:none; 
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "Cinzel", serif;
+    color: #fff;
+    background-color: #333;
+}
+
+button:hover{
+    color:white;
+    background-color: green;
+}
+
+input{
+    padding:0.3rem;
+    border: none;
+    outline: none;
+    font-family: "Cinzel", serif;
+}
